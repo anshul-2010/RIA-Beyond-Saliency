@@ -1,0 +1,12 @@
+# Versions used for the paper's experiments (Kaggle, NVIDIA T4) and analysis.
+torch>=2.1
+transformers==4.52.4      # pinned: scores were computed with this version
+sentencepiece             # SigLIP tokenizer
+numpy
+pillow
+scipy                     # Spearman, Fisher tests
+scikit-learn              # cross-validated AUROC (failure prediction)
+matplotlib                # figures
+spacy>=3.7                # relation arguments in free-form captions; then: python -m spacy download en_core_web_sm
+gdown                     # What's Up download (Google Drive)
+pytest
