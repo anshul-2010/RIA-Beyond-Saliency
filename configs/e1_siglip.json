@@ -1,0 +1,5 @@
+{
+  "model": "google/siglip-base-patch16-224",
+  "per_type": 125,
+  "seed": 0
+}

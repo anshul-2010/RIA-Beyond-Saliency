@@ -1,0 +1,7 @@
+{
+  "model": "openai/clip-vit-base-patch16",
+  "operators": ["drop", "blur", "mean"],
+  "substitutes": ["below", "next to"],
+  "k": 2.0,
+  "seed": 0
+}

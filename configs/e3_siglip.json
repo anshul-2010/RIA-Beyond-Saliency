@@ -1,0 +1,6 @@
+{
+  "model": "google/siglip-base-patch16-224",
+  "aro_per_relation": 15,
+  "operators": ["drop", "blur", "mean"],
+  "seed": 0
+}

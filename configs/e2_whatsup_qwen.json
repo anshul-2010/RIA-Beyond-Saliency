@@ -1,0 +1,8 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "subsets": ["A", "B"],
+  "operators": ["token", "blur", "mean"],
+  "no_fixlip": true,
+  "no_first_order": true,
+  "seed": 0
+}

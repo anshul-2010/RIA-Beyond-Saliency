@@ -1,0 +1,9 @@
+{
+  "model": "openai/clip-vit-base-patch16",
+  "subsets": ["A", "B"],
+  "only_fixlip": true,
+  "groups": 25,
+  "fixlip_budget_image": 512,
+  "fixlip_budget_text": 32,
+  "seed": 0
+}

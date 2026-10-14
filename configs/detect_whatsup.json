@@ -1,0 +1,6 @@
+{
+  "detector": "google/owlv2-base-patch16-ensemble",
+  "subsets": ["A", "B"],
+  "flag_score": 0.2,
+  "seed": 0
+}
