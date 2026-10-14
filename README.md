@@ -190,25 +190,8 @@ tests/               unit tests (margin identity, dividends, regions, loaders, s
 assets/              figures for this README
 reproduce.sh         rerun experiments or regenerate every table from records
 ```
-
-## Use of AI assistance
-
-An AI assistant (Claude, Anthropic) was used substantially in this project: implementing experiment and analysis code, running and analysing experiments, producing figures and tables, checking the literature, refining the mathematical formulation, and drafting text. The authors reviewed and verified all code, results, derivations and text.
-
 ## Acknowledgements and licences
 
 Code: [MIT](LICENSE). Boxes in `data/boxes/`: [CC BY 4.0](data/boxes/README.md); they annotate images from datasets that keep their own licences.
 
 This work builds on What's Up (Kamath et al., 2023), VSR (Liu et al., 2023), SugarCrepe (Hsieh et al., 2023), ARO (Yuksekgonul et al., 2023), Flickr30k Entities (Plummer et al., 2015), COCO (Lin et al., 2014) and Winoground (Thrush et al., 2022); on CLIP, SigLIP, Qwen2.5-VL and OWLv2; and on the official [FIxLIP](https://github.com/hbaniecki/fixlip) code (MIT, Baniecki et al., 2025), which `scripts/setup_fixlip.py` clones at a pinned commit.
-
-## Citation
-
-```bibtex
-@misc{ria2026,
-  title  = {Left of, Behind, Facing Away: Where Vision--Language Models Stop Grounding Space},
-  author = {Bagaria, Anshul},
-  year   = {2026},
-  note   = {Under review},
-  url    = {https://github.com/anshul-2010/RIA-Beyond-Saliency}
-}
-```
